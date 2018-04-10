@@ -1,0 +1,42 @@
+@charset "UTF-8";
+label{
+  display: inline-block;
+  width: 200px;
+}
+label#ask{
+  display: inline;
+}
+
+form{
+  width: 650px;
+  margin: auto;
+}
+input, textarea{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 13pt;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+input:hover, textarea:hover{
+  background-color: #dddddd;
+}
+legend{
+  color: #888888;
+  font-weight: bold;
+  font-size: 13pt;
+  font-family: sans-serif;
+}
+fieldset{
+  border-color: #cecece;
+  margin: 20px;
+}
+fieldset#sexo{
+  width: 250px;
+  margin-left: 100px;
+}
+fieldset#usuario{
+  background: url("../IMG/icone-contato.png") no-repeat 95% 95%;
+}
+fieldset#endereco{
+  background: url("../IMG/icone-endereco.png") no-repeat 95% 95%;
+}
