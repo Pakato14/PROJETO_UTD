@@ -27,15 +27,21 @@ a{
 a:hover{
   text-decoration: underline;
 }
-header#cabecalho img#logo{
+header#cabecalho img#image{
   position: absolute;
   left: 900px;
-  top: 30px;
+  top: 100px;
   width: 10%;
+}
+header#cabecalho img#logo{
+  position: absolute;
+  left: 260px;
+  top: 100px;
+  width: 8%;
 }
 header#cabecalho{
   border-bottom: 1px #606060 solid;
-  height: 120px;
+  height: 165px;
 }
 header#cabecalho h1{
   font-family: 'FonteLogo', sans-serif;
