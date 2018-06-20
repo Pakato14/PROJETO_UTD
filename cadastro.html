@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -13,15 +13,14 @@
   <div id="container">
     <header id="cabecalho">
       <h1>Agenda UTD</h1>
-      <h2>Organize sua vida para não ficar perdido</h2>
+      <h2>Organize os seus contatos para não ficar perdido!</h2>
       <img id="image" src="IMG/contato.png" alt="Imagem de uma agenda" title="Agenda" />
       <img id="logo" src="IMG/logoUTD.png" alt="Logomarca da UTD" title="Universidade do Trabalho Digital">
       <nav id="menu">
-        <h1>Menu Principal</h1>
         <ul>
           <li onmouseover="mudaFoto('IMG/home.png')" onmouseout="mudaFoto('IMG/icon.png')"><a href="index.html">Home</a></li>
           <li onmouseover="mudaFoto('IMG/contato.png')" onmouseout="mudaFoto('IMG/icon.png')"><a href="cadastro.html">Cadastrar Contato</a></li>
-          <li onmouseover="mudaFoto('IMG/pagina de contato.jpeg')" onmouseout="mudaFoto('IMG/icon.png')"><a href="contato.html">Ver Contato</a></li>
+          <li onmouseover="mudaFoto('IMG/pagina de contato.jpeg')" onmouseout="mudaFoto('IMG/icon.png')"><a href="listaContato.php">Contatos</a></li>
         </ul>
       </nav>
     </header>
@@ -33,9 +32,9 @@
             <h2>por Daniel Araújo</h2>
           </hgroup>
         </header>
-        <form id="fContato" action="mailto:danieloliveira14@gmail.com" method="post">
+        <form id="fContato" action="cadastroAgenda.php" method="post">
           <fieldset id="usuario">
-            <legend>Identificação do Usuário</legend>
+            <legend>Cadastro de Contato</legend>
             <p>
               <label for="cNome">Nome:</label>
               <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo">
@@ -43,10 +42,6 @@
             <p>
               <label for="cUser">Nome do Usuário:</label>
               <input type="text" name="tUser" id="cUser" size="20" maxlength="30" placeholder="Nickname"></p>
-            <p>
-              <label for="cSenha">Senha:</label>
-              <input type="password" name="tSenha" id="cSenha" size="20" maxlength="8" placeholder="Senha de 8 digítos">
-            </p>
             <p>
               <label for="cMail">E-mail: </label>
               <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="Insira seu Email">
